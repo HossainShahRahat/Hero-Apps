@@ -3,6 +3,7 @@ import { FiDownload } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
 
 import apiData from '../../../../src/Information/Infomation.json'
+import { Link } from 'react-router';
 
 
 const Main = () => {
@@ -51,9 +52,9 @@ const Main = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a className="btn bg-purple-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-purple-700 transition-colors" href='/apps'>
+          <Link className="btn bg-purple-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-purple-700 transition-colors" to={'/apps'}>
             Show All
-          </a>
+          </Link>
         </div>
       </div>
     );
