@@ -79,8 +79,12 @@
 
 /*Error*/
 .Error-Alignment{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .Error-Alignment h1{

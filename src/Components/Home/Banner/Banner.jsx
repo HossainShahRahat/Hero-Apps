@@ -11,10 +11,10 @@ const Banner = () => {
                 </div>
                 <div className="flex gap-4 p-6">
                     <a href="https://play.google.com/store/games" className='btn btn-outline btn-success'>
-                        <img alt="" class="w-10" src="https://img.icons8.com/?size=96&amp;id=rZwnRdJyYqRi&amp;format=png"></img>
+                        <img alt="" className="w-10" src="https://img.icons8.com/?size=96&amp;id=rZwnRdJyYqRi&amp;format=png"></img>
                         Play Store</a>
                     <a href="https://www.apple.com/app-store/" className='btn btn-outline btn-success'>
-                        <img alt="" class="w-10" src="https://img.icons8.com/?size=160&amp;id=FY7tVsFoeON4&amp;format=png"></img>
+                        <img alt="" className="w-10" src="https://img.icons8.com/?size=160&amp;id=FY7tVsFoeON4&amp;format=png"></img>
                         App Store</a>
                 </div>
                 <div className="hero-image">
