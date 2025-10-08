@@ -9,7 +9,8 @@ import { FaXTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className="Footer flex">
+        <div className="Footer">
+            <div className="Upper-Footer Footer flex">
             <div className="Footer-Left-Side-Content flex">
                 <img src="/src/assets/logo.png" alt="Logo"/>
                 <NavLink to={'/'}>HERO.IO</NavLink>
@@ -22,6 +23,11 @@ const Footer = () => {
                     <NavLink to={''} className="w-8 h-8 bg-white rounded-full flex items-center justify-center"><FaFacebookF className="text-black text-2xl" /></NavLink>
                 </div>
             </div>
+        </div>
+        <hr className="w-full border-t border-gray-700" />
+        <div className="Bottom-Footer">
+            <p>Copyright © 2025 - All right reserved</p>
+        </div>
         </div>
     );
 };
