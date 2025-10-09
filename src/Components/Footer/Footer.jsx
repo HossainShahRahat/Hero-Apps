@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="Footer">
             <div className="Upper-Footer Footer flex">
             <div className="Footer-Left-Side-Content flex">
-                <img src="/src/assets/logo.png" alt="Logo"/>
+                <img src="https://i.ibb.co/KpPbm6HP/logo.png" alt="Logo"/>
                 <NavLink to={'/'}>HERO.IO</NavLink>
             </div>
             <div className="Footter-Right-Side-Content">
