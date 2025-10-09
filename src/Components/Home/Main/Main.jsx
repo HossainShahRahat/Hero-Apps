@@ -26,7 +26,7 @@ const Main = () => {
             setIsLoading(true);
             setError(null);
             try {
-                const response = await fetch('/public/Infomation.json');
+                const response = await fetch('/Infomation.json');
                 if (!response.ok) {
                     throw new Error('Failed to fetch apps. Please try again later.');
                 }
