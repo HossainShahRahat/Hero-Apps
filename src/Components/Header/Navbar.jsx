@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <div className="bg-white text-black shadow-sm Alignment">
             <div className="Logo">
-                <img src="/src/assets/logo.png" alt="Logo"/>
+                <img src="https://i.ibb.co/KpPbm6HP/logo.png" alt="Logo"/>
                 <NavLink to={'/'}>HERO.IO</NavLink>
             </div>
             <div className="Navbar-Menu-Items">

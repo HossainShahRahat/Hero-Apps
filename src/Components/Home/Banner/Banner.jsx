@@ -18,7 +18,7 @@ const Banner = () => {
                         App Store</a>
                 </div>
                 <div className="hero-image">
-                    <img src="/src/assets/hero.png" alt="Hero Mobile App Image" />
+                    <img src="https://i.ibb.co/gZRL5m3m/hero.png" alt="Hero Mobile App Image" />
                 </div>
             </div>
             <div className="bg-gradient-to-r from-purple-600 to-indigo-600 py-16 px-4 sm:px-6 lg:px-8">
